@@ -86,7 +86,7 @@
           <a href="#" class="text-white hover:text-gray-300">Home</a>
           <a href="#" class="text-gray-300 hover:text-white">About</a>
           <a href="#" class="text-gray-300 hover:text-white">Service</a>
-          <a href="#" class="text-gray-300 hover:text-white">Portfolio</a>
+          <a href="#" class="text-gray-300 hover:text-white">Pricing</a>
           <a href="#" class="text-gray-300 hover:text-white">Blog</a>
         </div>
         <div class="hidden sm:flex">
@@ -108,105 +108,386 @@
       <a href="#" class="block py-2 text-lg hover:text-gray-300">Home</a>
       <a href="#" class="block py-2 text-lg hover:text-gray-300">About</a>
       <a href="#" class="block py-2 text-lg hover:text-gray-300">Service</a>
-      <a href="#" class="block py-2 text-lg hover:text-gray-300">Portfolio</a>
+      <a href="#" class="block py-2 text-lg hover:text-gray-300">Pricing</a>
       <a href="#" class="block py-2 text-lg hover:text-gray-300">Blog</a>
       <a href="#" class="block py-2 text-lg hover:text-gray-300">Contact</a>
     </div>
   </header>
 
   <!-- Main Content -->
-  <main class=" bg-blue-900 pt-24">
+  <main class=" bg-blue-900 pt-4">
 
-    <!-- Hero Section -->
-    <section class=" px-24  text-white h-screen flex items-center justify-center">
-      <div class=" mx-auto px-6 flex flex-col md:flex-row items-center justify-between w-full">
-        
-        <!-- Left Text -->
-        <div class="text-left max-w-lg animate-fade-in-left">
-          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
-            HELLO WORLD!<br />I'M <span class="text-blue-400">SARAH JOHNSTON</span>
-          </h1>
-        </div>
-
-            <!-- Arrow -->
-    <div class="hidden md:flex items-center justify-center px-4 animate-slide-arrow">
-        <svg class="w-[400px] h-24 text-blue-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 400 48">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M0 24h380M370 14l10 10-10 10" />
-        </svg>
-    </div>
-  
-
-        <!-- Right Text -->
-        <div class="text-right max-w-lg mt-10 md:mt-20 animate-fade-in-right">
-          <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">
-            RESUME<br /><span class="text-blue-300">WRITER</span>
-          </h2>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Tu pourras ajouter ici d’autres sections (about, service, etc.) -->
-   
-        <!-- Section Profil (sous Hero) -->
-<section class="w-full flex justify-center px-4 py-16">
-    <div class="bg-blue-800 rounded-3xl w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-3 gap-10 p-12 md:p-16 text-white shadow-lg">
-  
-      <!-- Colonne Gauche -->
-      <div class="flex flex-col justify-between space-y-12">
-        <!-- About Me -->
-        <div>
-          <h2 class="text-2xl font-bold mb-4">About Me</h2>
-          <p class="text-base text-gray-300">
-            Hello, my name’s Nikolas, I’m a web designer and developer. Duis dolor in reprehenderit velit th esse cillum fugiat nulla pariatur.
-          </p>
+   <!-- Hero Section -->
+<!-- Hero Section Modifiée -->
+<section class="pt-32 lg:px-24 text-white min-h-[90vh] flex items-center relative overflow-hidden bg-gradient-to-br from-blue-900 to-blue-700">
+    <div class="mx-auto px-4 flex flex-col md:flex-row items-center justify-between w-full gap-8">
+      
+      <!-- Left Text avec Signature -->
+      <div class="text-left max-w-2xl animate-fade-in-left relative z-10">
+        <div class="mb-8">
+          <span class="text-blue-300 text-lg font-mono">Welcome to Professional Resume Crafting</span>
         </div>
         
-        <!-- What I Do -->
-        <div>
-          <h2 class="text-2xl font-bold mb-4">What I Do</h2>
-          <p class="text-base text-gray-300">
-            Website Design & Logo / Mobile App Design / UI/UX / Web Development / Brand Identity
-          </p>
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+          HELLO WORLD!<br />I'M 
+          <span class="text-blue-400 bg-clip-text bg-gradient-to-r from-blue-300 to-blue-500 animate-text">
+            SARAH JOHNSTON
+          </span>
+        </h1>
+        
+        <!-- Signature Animée -->
+        <div class="pl-2 mt-8 border-l-4 border-blue-400 animate-pulse">
+          <p class="text-xl text-blue-200 font-medium">Certified Career Consultant</p>
+          <p class="text-sm text-blue-300">Since 2012</p>
         </div>
       </div>
   
-      <!-- Colonne Centre (Image) -->
-      <div class="flex justify-center items-center">
-        <div class="rounded-3xl overflow-hidden shadow-2xl w-[320px] h-[420px]">
-          <img src="img/profile.jpeg" alt="Owner Photo" class="w-full h-full object-cover rounded-3xl">
-        </div>
+      <!-- Séparateur Visuel Dynamique -->
+      <div class="hidden md:block relative self-stretch mx-12">
+        <div class="h-full w-1 bg-blue-400/30 animate-glow"></div>
       </div>
   
-      <!-- Colonne Droite -->
-      <div class="flex flex-col justify-between space-y-12 text-right">
-        <!-- Contact -->
-        <div>
-          <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
-          <p class="text-base text-gray-300">📍 45 Kofi Annan St, Ghana</p>
-          <p class="text-base text-gray-300">📧 contact@example.com</p>
-          <p class="text-base text-gray-300">✉️ nikolasraio@gmail.com</p>
-          <p class="text-base text-gray-300">📞 004-400-45</p>
-        </div>
-  
-        <!-- Réseaux -->
-        <div>
-          <h2 class="text-2xl font-bold mb-4">Find With Me</h2>
-          <div class="flex justify-end space-x-4">
-            <a href="#" class="bg-white text-blue-900 p-2 rounded-full hover:bg-gray-300 transition">F</a>
-            <a href="#" class="bg-white text-blue-900 p-2 rounded-full hover:bg-gray-300 transition">T</a>
-            <a href="#" class="bg-white text-blue-900 p-2 rounded-full hover:bg-gray-300 transition">I</a>
-            <a href="#" class="bg-white text-blue-900 p-2 rounded-full hover:bg-gray-300 transition">L</a>
-            <a href="#" class="bg-white text-blue-900 p-2 rounded-full hover:bg-gray-300 transition">B</a>
+      <!-- Right Text avec Statistiques -->
+      <div class="text-right max-w-2xl animate-fade-in-right">
+        <h2 class="text-5xl md:text-7xl font-extrabold leading-tight">
+          EXECUTIVE<br />
+          <span class="text-blue-300 bg-gradient-to-l from-blue-200 to-blue-400 bg-clip-text text-transparent">
+            CAREER ELEVATION
+          </span>
+        </h2>
+        
+        <!-- Grid de Statistiques -->
+        <div class=" grid grid-cols-2 gap-6 text-left">
+          <div class="p-6 bg-blue-800/30 rounded-xl backdrop-blur-sm">
+            <p class="text-4xl font-bold text-blue-400">500+</p>
+            <p class="text-sm text-blue-200">Careers Boosted</p>
+          </div>
+          <div class="p-6 bg-blue-800/30 rounded-xl backdrop-blur-sm">
+            <p class="text-4xl font-bold text-blue-400">97%</p>
+            <p class="text-sm text-blue-200">Success Rate</p>
           </div>
         </div>
       </div>
   
     </div>
+    
+    <!-- Fond Décoratif -->
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMDA5ZmZmIiBvcGFjaXR5PSIwLjEiLz48L3N2Zz4=')]"></div>
   </section>
   
-     
+  <!-- Section Profil Améliorée -->
+  <section class="w-full flex justify-center px-4 py-24 bg-blue-900/80 backdrop-blur">
+    <div class="rounded-3xl w-full max-w-screen-xl grid grid-cols-1 lg:grid-cols-3 gap-12 p-12 text-white shadow-2xl bg-gradient-to-br from-blue-800 to-blue-900 transform -translate-y-32">
       
+      <!-- Colonne Gauche avec Liste de Compétences -->
+      <div class="space-y-12">
+        <div class="group relative p-8 bg-blue-700/20 rounded-2xl transition-all hover:bg-blue-700/30">
+          <h2 class="text-3xl font-bold mb-6 text-blue-300">Expertise</h2>
+          <ul class="space-y-4 text-lg">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-400 mr-3 animate-pulse"></div>
+              Executive Resume Writing
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-400 mr-3 animate-pulse"></div>
+              LinkedIn Profile Optimization
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-400 mr-3 animate-pulse"></div>
+              Interview Coaching
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Colonne Centrale avec Image Interactive -->
+      <div class="relative flex justify-center items-center group">
+        <div class="relative rounded-3xl overflow-hidden shadow-2xl w-full h-[500px] transform transition-all duration-700 hover:scale-105">
+          <img src="img/profile.jpeg" alt="Sarah Johnston Professional Photo" class="w-full h-full object-cover">
+         
+        </div>
+        
+        <!-- Badge de Certification -->
+        <div class="absolute bottom-8 left-8 flex items-center bg-blue-500/90 px-6 py-3 rounded-full">
+          
+          
+        </div>
+      </div>
+  
+      <!-- Colonne Droite avec Contact Renforcé -->
+      <!-- Colonne Droite avec Contact Renforcé -->
+<div class="space-y-12 text-right">
+    <div class="group relative p-8 bg-blue-700/20 rounded-2xl transition-all hover:bg-blue-700/30">
+      <h2 class="text-3xl font-bold mb-6 text-blue-300">Quick Connect</h2>
+      <div class="space-y-6 text-lg">
+        <div class="flex items-center justify-end gap-3">
+          <span class="text-xl">📍</span>
+          <span>Raleigh-Durham, NC, 27701 USA</span>
+        </div>
+        <div class="flex items-center justify-end gap-3">
+          <span class="text-xl">📧</span>
+          <a href="mailto:sarah@briefcasecoach.com" class="hover:text-blue-300 transition">sarah@briefcasecoach.com</a>
+        </div>
+        <div class="flex items-center justify-end gap-3">
+          <span class="text-xl">✉️</span>
+          <a href="mailto:nikolasraio@gmail.com" class="hover:text-blue-300 transition">nikolasraio@gmail.com</a>
+        </div>
+        <div class="flex items-center justify-end gap-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-6 h-6">
+          <a href="https://www.linkedin.com/in/sarah-johnston" target="_blank" class="hover:text-blue-300 transition">LinkedIn Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      
+    </div>
+  </section>
+
+    <!-- Tu pourras ajouter ici d’autres sections (about, service, etc.) -->
+   
+  <!-- Section Services Accordéon Finale -->
+<section class="w-full bg-blue-900 ">
+    <div class="mx-auto px-6 lg:px-24">
+      <h2 class="text-5xl font-bold text-white text-center mb-16">Professional Services</h2>
+  
+      <div x-data="{ active: null }" class="space-y-2 w-full">
+        <!-- Executive Resume Writing -->
+        <div class="border-b border-blue-700">
+          <button 
+            @click="active === 1 ? active = null : active = 1"
+            class="w-full py-8 px-6 flex justify-between items-center hover:bg-blue-800/20 transition-all"
+          >
+            <h3 class="text-4xl font-bold text-blue-300">Executive Resume Writing</h3>
+            <svg class="w-10 h-10 transform transition-transform" :class="{ 'rotate-180': active === 1 }" 
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div x-show="active === 1" x-collapse class="px-6 pb-8">
+            <p class="text-2xl text-blue-200 leading-relaxed">
+              Crafting compelling, achievement-driven resumes tailored for senior-level professionals, 
+              highlighting leadership impact, strategic accomplishments, and industry-specific value.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Interview Coaching -->
+        <div class="border-b border-blue-700">
+          <button 
+            @click="active === 2 ? active = null : active = 2"
+            class="w-full py-8 px-6 flex justify-between items-center hover:bg-blue-800/20 transition-all"
+          >
+            <h3 class="text-4xl font-bold text-blue-300">Interview Coaching</h3>
+            <svg class="w-10 h-10 transform transition-transform" :class="{ 'rotate-180': active === 2 }" 
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div x-show="active === 2" x-collapse class="px-6 pb-8">
+            <p class="text-2xl text-blue-200 leading-relaxed">
+              Preparing clients with mock interviews, behavioral strategies, and personalized feedback 
+              to improve confidence, communication, and alignment with employer expectations.
+            </p>
+          </div>
+        </div>
+  
+        <!-- LinkedIn Branding & SEO -->
+        <div class="border-b border-blue-700">
+          <button 
+            @click="active === 3 ? active = null : active = 3"
+            class="w-full py-8 px-6 flex justify-between items-center hover:bg-blue-800/20 transition-all"
+          >
+            <h3 class="text-4xl font-bold text-blue-300">LinkedIn Branding & SEO</h3>
+            <svg class="w-10 h-10 transform transition-transform" :class="{ 'rotate-180': active === 3 }" 
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div x-show="active === 3" x-collapse class="px-6 pb-8">
+            <p class="text-2xl text-blue-200 leading-relaxed">
+              Optimizing LinkedIn profiles using strategic keywords, impactful content, and branding 
+              elements to increase visibility, engagement, and recruiter interest.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Career Transition & Outplacement -->
+        <div class="border-b border-blue-700">
+          <button 
+            @click="active === 4 ? active = null : active = 4"
+            class="w-full py-8 px-6 flex justify-between items-center hover:bg-blue-800/20 transition-all"
+          >
+            <h3 class="text-4xl font-bold text-blue-300">Career Transition & Outplacement</h3>
+            <svg class="w-10 h-10 transform transition-transform" :class="{ 'rotate-180': active === 4 }" 
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div x-show="active === 4" x-collapse class="px-6 pb-8">
+            <p class="text-2xl text-blue-200 leading-relaxed">
+              Supporting professionals through job changes with resume support, career counseling, 
+              and networking strategies, often provided by companies during workforce reductions.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Job Search Strategy -->
+        <div class="border-b border-blue-700">
+          <button 
+            @click="active === 5 ? active = null : active = 5"
+            class="w-full py-8 px-6 flex justify-between items-center hover:bg-blue-800/20 transition-all"
+          >
+            <h3 class="text-4xl font-bold text-blue-300">Job Search Strategy</h3>
+            <svg class="w-10 h-10 transform transition-transform" :class="{ 'rotate-180': active === 5 }" 
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div x-show="active === 5" x-collapse class="px-6 pb-8">
+            <p class="text-2xl text-blue-200 leading-relaxed">
+              Developing customized plans that combine networking, online presence, and application 
+              tactics to help clients efficiently target and land their ideal roles.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Public Speaking & Workshops -->
+        <div class="border-b border-blue-700">
+          <button 
+            @click="active === 6 ? active = null : active = 6"
+            class="w-full py-8 px-6 flex justify-between items-center hover:bg-blue-800/20 transition-all"
+          >
+            <h3 class="text-4xl font-bold text-blue-300">Public Speaking & Workshops</h3>
+            <svg class="w-10 h-10 transform transition-transform" :class="{ 'rotate-180': active === 6 }" 
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div x-show="active === 6" x-collapse class="px-6 pb-8">
+            <p class="text-2xl text-blue-200 leading-relaxed">
+              Delivering engaging presentations and interactive sessions on career topics, leadership, 
+              or industry trends to educate, motivate, and empower diverse audiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Script Alpine.js corrigé -->
+  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+  
+ 
+  
+     
+     <!-- ====== Pricing Section Start -->
+<section class="relative z-10 overflow-hidden bg-blue-900 pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
+    <div class="container mx-auto">
+      <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-[60px] max-w-[510px] text-center">
+            <span class="mb-2 block text-lg font-semibold text-blue-300">
+              Transparent Pricing
+            </span>
+            <h2 class="mb-3 text-3xl font-bold leading-[1.208] text-white sm:text-4xl md:text-[40px]">
+              Investment Packages
+            </h2>
+            <p class="text-base text-blue-200">
+              Tailored solutions for every career stage - choose the perfect package for your professional growth
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="-mx-4 flex flex-wrap justify-center">
+        <!-- Package de Base -->
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+          <div class="relative z-10 mb-10 overflow-hidden rounded-xl border-2 border-blue-700 bg-blue-800 px-8 py-10 shadow-xl sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
+            <span class="mb-3 block text-lg font-semibold text-blue-300">
+              Career Starter
+            </span>
+            <h2 class="mb-5 text-[42px] font-bold text-white">
+              <span>$597</span>
+              <span class="text-base font-medium text-blue-200">
+                / package
+              </span>
+            </h2>
+            <p class="mb-8 border-b border-blue-600 pb-8 text-base text-blue-200">
+              Ideal for recent graduates and entry-level professionals
+            </p>
+            <div class="mb-9 flex flex-col gap-[14px]">
+              <p class="text-base text-blue-300">✓ Professional Resume Writing</p>
+              <p class="text-base text-blue-300">✓ Cover Letter Development</p>
+              <p class="text-base text-blue-200">✗ LinkedIn Optimization</p>
+              <p class="text-base text-blue-200">✗ Interview Coaching</p>
+              <p class="text-base text-blue-200">✗ Career Strategy Session</p>
+            </div>
+            <a href="#contact" class="block w-full rounded-lg bg-blue-500 p-3 text-center text-base font-medium text-white transition hover:bg-blue-600">
+              Start My Career
+            </a>
+          </div>
+        </div>
+  
+        <!-- Package Professionnel -->
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+          <div class="relative z-10 mb-10 overflow-hidden rounded-xl border-2 border-blue-500 bg-blue-700 px-8 py-10 shadow-xl sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
+            <span class="mb-3 block text-lg font-semibold text-blue-300">
+              Executive Package
+            </span>
+            <h2 class="mb-5 text-[42px] font-bold text-white">
+              <span>$1497</span>
+              <span class="text-base font-medium text-blue-200">
+                / package
+              </span>
+            </h2>
+            <p class="mb-8 border-b border-blue-500 pb-8 text-base text-blue-200">
+              Comprehensive solution for senior executives
+            </p>
+            <div class="mb-9 flex flex-col gap-[14px]">
+              <p class="text-base text-blue-300">✓ Executive Resume Writing</p>
+              <p class="text-base text-blue-300">✓ LinkedIn SEO Optimization</p>
+              <p class="text-base text-blue-300">✓ 3-Hour Interview Coaching</p>
+              <p class="text-base text-blue-300">✓ Personal Branding Strategy</p>
+              <p class="text-base text-blue-300">✓ Board-Level Presentation Prep</p>
+            </div>
+            <a href="#contact" class="block w-full rounded-lg bg-blue-400 p-3 text-center text-base font-medium text-blue-900 transition hover:bg-blue-300">
+              Elevate My Career
+            </a>
+          </div>
+        </div>
+  
+        <!-- Package Entreprise -->
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+          <div class="relative z-10 mb-10 overflow-hidden rounded-xl border-2 border-blue-600 bg-blue-800 px-8 py-10 shadow-xl sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
+            <span class="mb-3 block text-lg font-semibold text-blue-300">
+              Corporate Solutions
+            </span>
+            <h2 class="mb-5 text-[42px] font-bold text-white">
+              <span>Custom</span>
+              <span class="text-base font-medium text-blue-200">
+                / enterprise
+              </span>
+            </h2>
+            <p class="mb-8 border-b border-blue-600 pb-8 text-base text-blue-200">
+              Tailored packages for organizational needs
+            </p>
+            <div class="mb-9 flex flex-col gap-[14px]">
+              <p class="text-base text-blue-300">✓ Bulk Resume Development</p>
+              <p class="text-base text-blue-300">✓ Team Training Workshops</p>
+              <p class="text-base text-blue-300">✓ Outplacement Services</p>
+              <p class="text-base text-blue-300">✓ Recruitment Consulting</p>
+              <p class="text-base text-blue-300">✓ Ongoing Career Support</p>
+            </div>
+            <a href="#contact" class="block w-full rounded-lg border border-blue-400 bg-transparent p-3 text-center text-base font-medium text-blue-300 transition hover:bg-blue-400 hover:text-blue-900">
+              Contact for Pricing
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Pricing Section End -->
 
   </main>
 
@@ -216,4 +497,6 @@
   </footer>
 
 </body>
+ <!-- Inclure Alpine.js -->
+ <script src="//unpkg.com/alpinejs" defer></script>
 </html>
